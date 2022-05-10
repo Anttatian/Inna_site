@@ -127,11 +127,15 @@ a.footer_link {
 @media (max-width: 525px) and (max-width: 767px){
 	.container{
 		max-width: 500px;
+		margin: 5px;
+		padding: 5px;
 	}
 }
 @media (max-width: 325px) and (max-width: 524px){
 	.container{
 		max-width: 300px;
+		margin: 5px;
+		padding: 5px;
 	}
 }
 /*@media (max-width: 1200px){
