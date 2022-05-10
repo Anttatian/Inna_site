@@ -109,7 +109,7 @@ a.footer_link {
 		max-width: 740px;
 	}
 }
-@media (max-width: 767px){
+@media (max-width: 425)(max-width: 767px){
 	.container{
 		max-width: 540px;
 	}

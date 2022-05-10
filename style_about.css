@@ -16,7 +16,7 @@ body{
 	background: linear-gradient(#FFFFFFFF, #CBF6FFFF);
 	box-shadow: 0 0 10px #3A3B67FF; /* Параметры тени */
 	border-radius: 10px;
-	width: 1200px;
+	max-width: 1200px;
 	margin: 10px auto;
 	padding: 10px;
 }
@@ -128,7 +128,7 @@ a.footer_link {
 		max-width: 740px;
 	}
 }
-@media (max-width: 767px){
+@media (max-width: 425)(max-width: 767px){
 	.container{
 		max-width: 540px;
 	}
