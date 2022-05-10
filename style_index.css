@@ -124,12 +124,11 @@ a.footer_link {
 		max-width: 740px;
 	}
 }
-@media (max-width: 425) and (max-width: 767px){
+@media (max-width: 425px) and (max-width: 767px){
 	.container{
 		max-width: 425px;
 	}
 }
-
 /*@media (max-width: 1200px){
 	.container{
 		max-width: 970px;
