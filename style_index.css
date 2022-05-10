@@ -126,7 +126,7 @@ a.footer_link {
 }
 @media (max-width: 425)(max-width: 767px){
 	.container{
-		max-width: 540px;
+		max-width: 400px;
 	}
 }
 
