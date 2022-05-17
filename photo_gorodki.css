@@ -86,7 +86,7 @@ div.photo_folder{
  	border-radius: 30px;
 }
 .picture_gorodki:hover{
-transform: scale(1.5, 1.5);
+transform: scale(3, 3);
 }
 .link_in_text{
 	font-size: 16px;
