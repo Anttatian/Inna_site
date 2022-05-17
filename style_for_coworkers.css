@@ -1,3 +1,4 @@
+/*НАЧАЛО обязательной неизменяемой части*/
 body{
 	height: 100%;
 	background-color: #CBF6FFFF;
@@ -71,6 +72,7 @@ h2 {
 	color: #2B54EDFF;
 	text-align: center;
 }
+/*ОКОНЧАНИЕ обязательной неизменяемой части*/
 section article {
 	padding: 10px;
 	margin: 10px 10px;

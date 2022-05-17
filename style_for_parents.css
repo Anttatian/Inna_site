@@ -1,3 +1,4 @@
+/*НАЧАЛО обязательной неизменяемой части*/
 body{
 	height: 100%;
 	background-color: #CBF6FFFF;
@@ -38,10 +39,6 @@ nav.all_button{
 	margin: 10px;
 	text-align: center;
 }
-nav img {
-	height: 20px;
-	width: 20px;
-}
 .menu{
 	margin: 10px;
 	border: 1px;
@@ -50,6 +47,10 @@ nav img {
 .menu:hover{
 	transform: background-color;
 	background-color: #CBF6FFFF;
+}
+nav img {
+	height: 20px;
+	width: 20px;
 }
 a {
 	font-size: 20px;
@@ -71,6 +72,7 @@ h2 {
 	color: #2B54EDFF;
 	text-align: center;
 }
+/*ОКОНЧАНИЕ обязательной неизменяемой части*/
 section article {
 	padding: 10px;
 	margin: 10px 10px;

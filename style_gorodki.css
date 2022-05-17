@@ -66,34 +66,36 @@ a {
 	padding: 10px;
 	flex: 1 1 auto;
 }
-h2 {
+h2, h4{
 	padding: 10px;
 	margin: 10px;
 	color: #2B54EDFF;
 	text-align: center;
 }
 /*ОКОНЧАНИЕ обязательной неизменяемой части*/
-section form input{
+main img {
+	height: 10%;
+	width: 10%;
+	border-radius: 5px;
+}
+section article {
 	padding: 10px;
 	margin: 10px 10px;
 	border-radius: 10px;
 	line-height: 1,5;
+	text-align: justify;
+	color: #2B54EDFF;
 }
-div.form{
+.photo_folder{
+	display: inline-block;
+ 	padding: 10px;
+ 	margin: 10px;
+	width: 33.333%;
 	text-align: center;
 }
-button {
-	border-radius: 10px;
-	border: 2;
-	padding: 10px;
-	margin: 15px 40px;
-	background-color: #CBF6FFFF;
-}
-button:hover {
-	transform: font-weight;
-	font-weight: bolder;
-	transform: background-color;
-	background-color: #A8EEA6FF;
+.picture_gorodki{
+ 	width: 33.333%;
+ 	border-radius: 30px;
 }
 footer {
 	background-image: url("img/shapka_vsja(2).png");
@@ -101,7 +103,7 @@ footer {
 	background-repeat: repeat;
 	background-size: cover;
 	background-position: bottom;
-	margin: 10px 50px;
+	margin: 10px 40px;
 	padding: 20px;
 	border-radius: 5px;
 }
@@ -110,6 +112,7 @@ a.footer_link {
 	display: block;
 	text-align: center;
 }
+/*Адаптивная часть*/
 @media (min-width: 1200px){
 	.container{
 		max-width: 1200px;
@@ -165,24 +168,3 @@ a.footer_link {
 		font-weight: bolder;
 	}
 }
-
-/*@media (max-width: 1200px){
-	.container{
-		max-width: 970px;
-	}
-}
-@media (max-width: 992px){
-	.container{
-		max-width: 750px;
-	}
-}
-@media (max-width: 767px){
-	.container{
-		max-width: none;
-	}
-}*/
-
-
-
-
-
