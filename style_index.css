@@ -143,8 +143,14 @@ a.footer_link {
 		margin: 5px;
 		padding: 5px;
 	}
-	.menu{
-	margin: 5px;
+a {
+	font-size: 15px;
+	padding: 5px 5px;
+	text-decoration: none;
+	display: inline;
+	color: #2B7AEDFF;
+	font-weight: 200;
+	font-family: Comic Sans MS, Comic Sans, Bradley Hand, Brush Script MT, Brush Script Std, cursive;
 }
 	p.name_of_the_site {
 		text-align: center;
@@ -166,8 +172,14 @@ a.footer_link {
 		margin: 5px;
 		padding: 5px;
 	}
-	.menu{
-	margin: 5px;
+a {
+	font-size: 15px;
+	padding: 5px 5px;
+	text-decoration: none;
+	display: inline;
+	color: #2B7AEDFF;
+	font-weight: 200;
+	font-family: Comic Sans MS, Comic Sans, Bradley Hand, Brush Script MT, Brush Script Std, cursive;
 }
 	p.name_of_the_site {
 		text-align: center;
