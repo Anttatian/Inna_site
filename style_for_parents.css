@@ -73,21 +73,25 @@ h2 {
 	text-align: center;
 }
 /*ОКОНЧАНИЕ обязательной неизменяемой части*/
-section article {
-	padding: 10px;
+section {
+	padding: 20px;
 	margin: 10px 10px;
 	border-radius: 10px;
 	line-height: 1,5;
-	text-align: justify;
+	text-align: center;
 	color: #2B54EDFF;
 }
 img.game_gorodki{
 	height: 80%;
 	width: 80%;
 }
-article.gorodki{
+.gorodki{
 	align-content: center;
 	text-align: center;
+}
+.picture_summer{
+ 	width: 33.333%;
+ 	border-radius: 30px;
 }
 footer {
 	background-image: url("img/shapka_vsja(2).png");
