@@ -92,6 +92,15 @@ transform: scale(3, 3);
 	font-size: 16px;
 	color: #2B54EDFF;
 }
+.law{
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	color: #2B7AEDFF;
+	font-weight: 200;
+	font-family: Comic Sans MS, Comic Sans, Bradley Hand, Brush Script MT, Brush Script Std, cursive;
+}
 footer {
 	background-image: url("img/shapka_vsja(2).png");
 	background-color: #CBF6FFFF;
