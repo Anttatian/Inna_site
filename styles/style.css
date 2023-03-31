@@ -1,0 +1,193 @@
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    color: rgb(44,48,111);
+  }
+
+ .header {
+    height: 600px;
+    background-image:url(../images/5291450\(2\).jpg);
+    background-repeat: no-repeat;
+ } 
+
+.header_menu {
+    padding: 60px 60px;
+
+} 
+
+.menu-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 10px;
+}
+
+.menu-point {
+    list-style-type: none;
+}
+
+.header_menu-link {
+    text-decoration: none;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(44,48,111);
+}
+
+.poem {
+    margin: 0px 60px;
+    padding: 0px 0px;
+    color: rgb(53, 120, 128);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.performance {
+    margin: 100px 150px 0px;
+    color: rgb(235,76,66);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.performance h2 {
+    font-size: 1.5em;
+}
+
+.content {
+
+}
+
+.news {
+    height: 400px;
+    margin: 10px 60px;
+    overflow-y: auto;
+}
+
+.news::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+.news::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #18aaaa;
+}
+
+.news::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+.news_article {
+    margin: 0px 0px;
+    padding: 10px 20px;
+    color: rgb(44,48,111);
+}
+
+.news_article-link {
+    text-decoration: none;
+    color: rgb(44,48,111);
+    font-weight: bold;
+}
+
+.about {
+    margin: 10px 60px;
+    padding: 20px 20px;
+    background-color: rgb(255,207,71);
+    color: rgb(44,48,111);
+    border-radius: 10px;
+}
+
+.gorodki {
+    margin: 10px 60px;
+    padding: 20px 10px;
+    color: rgb(44,48,111);
+}
+
+.gorodki_about {
+    padding: 0px 10px;
+}
+
+.gorodki_photo {
+    border: 10px solid rgb(44,48,111);
+    border-radius: 10px;
+}
+
+.gorodki_photo_folder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.for_coworkers {
+    margin: 10px 60px;
+    padding: 20px 20px;
+    color: rgb(44,48,111);
+    background-color: rgb(194,240,230);
+    border-radius: 10px;
+    width: 50vw;
+}
+
+.for-coworkers_paragraph {
+    padding: 20px 20px;
+}
+
+.for-coworkers_paragraph-link {
+    text-decoration: none;
+    color: rgb(44,48,111);
+}
+
+.for-parents {
+    margin: 10px 60px;
+    padding: 20px 20px;
+    width: 50vw;
+}
+
+.for-parents_news {
+    background-color: rgb(255,207,71);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footer {
+    margin: 10px 60px;
+    padding: 20px 20px;
+    background-color: rgb(44,48,111);
+    border-radius: 10px;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer_menu-link {
+    color: rgb(250,250,250);
+    text-decoration: none;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.message {
+    background-color: rgb(194,240,230);
+    color: rgb(44,48,111);
+    font-weight: bold;
+    border-radius: 10px;
+    /*border: 10px solid rgb(255,207,71);*/
+}
