@@ -111,19 +111,35 @@ h1 {
     border-radius: 10px;
 }
 
+.about-link {
+    list-style-type: none;
+}
+
+.about_image {
+    min-width: 1100px;
+}
+
+.about_image-link {
+    width: 100px;
+    height: 100px;
+}
+
 .gorodki {
     margin: 10px 60px;
     padding: 20px 10px;
     color: rgb(44,48,111);
+    border: 10px solid rgb(44,48,111);
+    border-radius: 10px;
 }
 
 .gorodki_about {
-    padding: 0px 10px;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.gorodki_photo {
-    border: 10px solid rgb(44,48,111);
-    border-radius: 10px;
+.gorodki_about p {
+    padding: 20px;
 }
 
 .gorodki_photo_folder {
@@ -131,9 +147,19 @@ h1 {
     justify-content: space-around;
 }
 
+.gorodki_photo_folder li{
+    list-style-type: none;
+    width: 110px;
+}
+
+.gorodki_link {
+    width: 100px;
+    height: 100px;
+}
+
 .information {
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;
+    justify-content: space-between;*/
 }
 
 .for_coworkers {
@@ -142,7 +168,6 @@ h1 {
     color: rgb(44,48,111);
     background-color: rgb(194,240,230);
     border-radius: 10px;
-    width: 50vw;
 }
 
 .for-coworkers_paragraph {
@@ -157,13 +182,26 @@ h1 {
 .for-parents {
     margin: 10px 60px;
     padding: 20px 20px;
-    width: 50vw;
+    border: 10px solid rgb(255,207,71);
+    border-radius: 10px;
 }
 
 .for-parents_news {
-    background-color: rgb(255,207,71);
-    border-radius: 10px;
     padding: 10px;
+}
+
+.for-parents a {
+    text-decoration: none;
+    color: rgb(44,48,111);
+}
+
+.for-parents a:hover {
+    color: rgb(255,207,71);
+}
+
+.for-parents img {
+    width: 100px;
+    height: 100px;
 }
 
 .footer {
@@ -171,13 +209,16 @@ h1 {
     padding: 20px 20px;
     background-color: rgb(44,48,111);
     border-radius: 10px;
+    display: flex;
 }
 
-.footer_menu {
+.footer_image-link {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
+    flex-direction: column;
+}
+
+.footer_menu li{
+ padding: 40px;
 }
 
 .footer_menu-link {
@@ -193,5 +234,13 @@ h1 {
     color: rgb(44,48,111);
     font-weight: bold;
     border-radius: 10px;
-    /*border: 10px solid rgb(255,207,71);*/
+}
+
+.message a {
+    color: rgb(44,48,111);
+    text-decoration: none;
+}
+
+.message a:hover {
+    color: rgb(255,207,71);
 }
